@@ -1,0 +1,91 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700');
+
+body {
+  color: #fff;
+
+  font-family: "Fira Mono", monospace;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+
+  height: 80vh;
+  padding-bottom: 38px;
+
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-size: cover;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+section>h1 {
+  display: flex;
+
+  text-align: center;
+  word-spacing: -40px;
+  text-transform: uppercase;
+
+  font-size: 110px;
+  font-weight: 400;
+
+  align-content: center;
+}
+
+nav ul {
+  position: relative;
+  top: 20px;
+  right: 0;
+  left: 0;
+
+  display: flex;
+
+  padding: 12px 16px 14px 16px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  background-color: #006AFF;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  justify-content: center;
+}
+nav ul li {
+  padding-right: 24px;
+}
+nav ul li:last-child {
+  padding: 0;
+}
+.bottom-link {
+  text-transform: uppercase;
+
+  font-size: 28px;
+
+}
+.bottom-link a {
+  padding: .15em .25em .075em .25em;
+
+  text-decoration: none;
+
+  color: #fff;
+  background-color: #006AFF;
+}
+.bottom-link a:hover {
+  transition: ease .15s;
+
+  color: #006AFF;
+  background: #fff;
+
+  font-weight: 500;
+}
+.bottom-link span {
+  padding-left: .24em;
+}
